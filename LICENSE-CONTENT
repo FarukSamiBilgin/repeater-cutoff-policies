@@ -1,0 +1,13 @@
+Licensing of non-code content
+=============================
+
+The source code in `scripts/` is released under the MIT License (see `LICENSE`).
+
+All other content in this repository -- the manuscript text and PDF in `paper/`,
+the figures in `figures/` and `paper/figs/`, the data files in `results/`, and
+the prose in `README.md` and `REFEREE.md` -- is licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Faruk Sami Bilgin. If you reuse it, please cite it as given
+in `CITATION.cff`.

@@ -1,0 +1,640 @@
+{
+  "4seg": {
+    "cap": 79433,
+    "landscape": {
+      "tuned_c0": {
+        "-1.0": 0.05,
+        "-0.5": 0.04,
+        "-0.25": 0.035,
+        "0.0": 0.03,
+        "0.25": 0.025,
+        "0.5": 0.025,
+        "1.0": 0.015
+      },
+      "rows": [
+        {
+          "gamma": -1.0,
+          "c0_star": 0.05,
+          "secret_key_hz": 1.8532284051198555,
+          "relative": -0.062237303531081416,
+          "sem_rel": 0.0029823889231829254,
+          "sigma": 20.868272091307013,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": -0.5,
+          "c0_star": 0.04,
+          "secret_key_hz": 1.9363983381787924,
+          "relative": -0.020152010388035786,
+          "sem_rel": 0.002432857417393467,
+          "sigma": 8.283268161940372,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": -0.25,
+          "c0_star": 0.035,
+          "secret_key_hz": 1.9588239589002066,
+          "relative": -0.008804293884444562,
+          "sem_rel": 0.0024015360195141933,
+          "sigma": 3.6661094453314025,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "c0_star": 0.03,
+          "secret_key_hz": 1.976223208811846,
+          "relative": 0.0,
+          "sem_rel": 0.0,
+          "sigma": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 0.25,
+          "c0_star": 0.025,
+          "secret_key_hz": 1.9668619525588769,
+          "relative": -0.004736942776113564,
+          "sem_rel": 0.0022066212002971376,
+          "sigma": 2.1466950355936487,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 0.5,
+          "c0_star": 0.025,
+          "secret_key_hz": 1.9354871936801281,
+          "relative": -0.020613063822992685,
+          "sem_rel": 0.002406668711143107,
+          "sigma": 8.564977692007307,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "c0_star": 0.015,
+          "secret_key_hz": 1.831492708482633,
+          "relative": -0.07323590760591701,
+          "sem_rel": 0.0034254135475007175,
+          "sigma": 21.38016522394853,
+          "censored_fraction": 0.0
+        }
+      ]
+    },
+    "frontier": {
+      "age": [
+        {
+          "param": 0.08,
+          "mean_delivery_time_s": 0.118162975,
+          "werner": 0.8065194860142976,
+          "secret_key_hz": 0.7011257156347844,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.06,
+          "mean_delivery_time_s": 0.13091702500000002,
+          "werner": 0.833299045758405,
+          "secret_key_hz": 1.3157012193210345,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.05,
+          "mean_delivery_time_s": 0.1411941,
+          "werner": 0.8496805006693415,
+          "secret_key_hz": 1.6305172786873465,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.04,
+          "mean_delivery_time_s": 0.1582719125,
+          "werner": 0.867687040375664,
+          "secret_key_hz": 1.877606074382192,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.035,
+          "mean_delivery_time_s": 0.17020395000000002,
+          "werner": 0.8768429586082755,
+          "secret_key_hz": 1.9543677345124446,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.03,
+          "mean_delivery_time_s": 0.18649230000000003,
+          "werner": 0.886206335945446,
+          "secret_key_hz": 1.9839821916505571,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.025,
+          "mean_delivery_time_s": 0.20896075,
+          "werner": 0.8953259810636944,
+          "secret_key_hz": 1.9501972619799455,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.02,
+          "mean_delivery_time_s": 0.24439913749999997,
+          "werner": 0.9043730484312323,
+          "secret_key_hz": 1.8245961960380577,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.017,
+          "mean_delivery_time_s": 0.274581125,
+          "werner": 0.9095707411957675,
+          "secret_key_hz": 1.7065248619091178,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.015,
+          "mean_delivery_time_s": 0.299689275,
+          "werner": 0.9126948472283086,
+          "secret_key_hz": 1.6096973078974146,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.013,
+          "mean_delivery_time_s": 0.3338050125,
+          "werner": 0.9157887175205065,
+          "secret_key_hz": 1.4867089389057364,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.012,
+          "mean_delivery_time_s": 0.3546006875,
+          "werner": 0.9172503230521739,
+          "secret_key_hz": 1.4181549042341508,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.01,
+          "mean_delivery_time_s": 0.41224565,
+          "werner": 0.9201923933597065,
+          "secret_key_hz": 1.2524039637755642,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.008,
+          "mean_delivery_time_s": 0.4967468125,
+          "werner": 0.9228274814344127,
+          "secret_key_hz": 1.0638326369457427,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.006,
+          "mean_delivery_time_s": 0.6298815375,
+          "werner": 0.9254071156955184,
+          "secret_key_hz": 0.8580784792029904,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.004,
+          "mean_delivery_time_s": 0.8877815750000002,
+          "werner": 0.927742303372855,
+          "secret_key_hz": 0.6212058574118899,
+          "censored_fraction": 0.0
+        }
+      ],
+      "fidelity": [
+        {
+          "param": 0.75,
+          "mean_delivery_time_s": 0.11428555416618323,
+          "werner": 0.7926881635528604,
+          "secret_key_hz": 0.34162509191304075,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.8,
+          "mean_delivery_time_s": 0.12630210639189743,
+          "werner": 0.8218190125751611,
+          "secret_key_hz": 1.0541915127593415,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.83,
+          "mean_delivery_time_s": 0.13707485414971265,
+          "werner": 0.8416281958284392,
+          "secret_key_hz": 1.4692096620338377,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.86,
+          "mean_delivery_time_s": 0.15404583364289523,
+          "werner": 0.8623457578449601,
+          "secret_key_hz": 1.797758788114307,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.88,
+          "mean_delivery_time_s": 0.17007766866843047,
+          "werner": 0.8759504149403204,
+          "secret_key_hz": 1.9352252998866688,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.89,
+          "mean_delivery_time_s": 0.18021529692123733,
+          "werner": 0.8825214290315582,
+          "secret_key_hz": 1.970755117436425,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.895,
+          "mean_delivery_time_s": 0.18705371875883312,
+          "werner": 0.8860135540142894,
+          "secret_key_hz": 1.9738537971428867,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.9,
+          "mean_delivery_time_s": 0.19365799535064102,
+          "werner": 0.8891861383141937,
+          "secret_key_hz": 1.973214402366959,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.905,
+          "mean_delivery_time_s": 0.20176382560901127,
+          "werner": 0.8924846694019821,
+          "secret_key_hz": 1.9612066514088735,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.91,
+          "mean_delivery_time_s": 0.2099226211463462,
+          "werner": 0.8954816013037776,
+          "secret_key_hz": 1.9443598364406833,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.92,
+          "mean_delivery_time_s": 0.23277878114704162,
+          "werner": 0.9015344967280016,
+          "secret_key_hz": 1.8633248323175904,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.93,
+          "mean_delivery_time_s": 0.2644448380985287,
+          "werner": 0.9070549940563888,
+          "secret_key_hz": 1.7302733377731772,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.94,
+          "mean_delivery_time_s": 0.31602395433100816,
+          "werner": 0.9123118924708651,
+          "secret_key_hz": 1.5211025259823931,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.95,
+          "mean_delivery_time_s": 0.40931142960862327,
+          "werner": 0.9162708770501722,
+          "secret_key_hz": 1.217768213217852,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.96,
+          "mean_delivery_time_s": 0.5982640308295145,
+          "werner": 0.9217066516892006,
+          "secret_key_hz": 0.8746440945984835,
+          "censored_fraction": 0.0
+        }
+      ],
+      "matched": {
+        "age": {
+          "param": 0.03,
+          "mean_delivery_time_s": 0.18649230000000003,
+          "werner": 0.886206335945446,
+          "secret_key_hz": 1.9839821916505571,
+          "censored_fraction": 0.0
+        },
+        "fidelity": {
+          "param": 0.895,
+          "mean_delivery_time_s": 0.18705371875883312,
+          "werner": 0.8860135540142894,
+          "secret_key_hz": 1.9738537971428867,
+          "censored_fraction": 0.0
+        },
+        "age_dominates": true
+      }
+    }
+  },
+  "8seg": {
+    "cap": 61168,
+    "landscape": {
+      "tuned_c0": {
+        "-1.0": 0.035,
+        "-0.5": 0.025,
+        "-0.25": 0.017,
+        "0.0": 0.012,
+        "0.25": 0.01,
+        "0.5": 0.008,
+        "1.0": 0.004
+      },
+      "rows": [
+        {
+          "gamma": -1.0,
+          "c0_star": 0.035,
+          "secret_key_hz": 1.1516713466068946,
+          "relative": -0.12802127745059316,
+          "sem_rel": 0.004900109525388903,
+          "sigma": 26.126207340321148,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": -0.5,
+          "c0_star": 0.025,
+          "secret_key_hz": 1.2428342160669954,
+          "relative": -0.05899804205452281,
+          "sem_rel": 0.005421113293051016,
+          "sigma": 10.883012190530806,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": -0.25,
+          "c0_star": 0.017,
+          "secret_key_hz": 1.307655504004565,
+          "relative": -0.009919123822911734,
+          "sem_rel": 0.0041838039253827225,
+          "sigma": 2.3708385956457936,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 0.0,
+          "c0_star": 0.012,
+          "secret_key_hz": 1.3207562487760591,
+          "relative": 0.0,
+          "sem_rel": 0.0,
+          "sigma": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 0.25,
+          "c0_star": 0.01,
+          "secret_key_hz": 1.30328496791539,
+          "relative": -0.013228240166843628,
+          "sem_rel": 0.004532249085455504,
+          "sigma": 2.9186922248590736,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 0.5,
+          "c0_star": 0.008,
+          "secret_key_hz": 1.2453956879404084,
+          "relative": -0.05705864417108538,
+          "sem_rel": 0.005166181465092234,
+          "sigma": 11.044645751727709,
+          "censored_fraction": 0.0
+        },
+        {
+          "gamma": 1.0,
+          "c0_star": 0.004,
+          "secret_key_hz": 1.062631299840979,
+          "relative": -0.1954372346708817,
+          "sem_rel": 0.005067699720415168,
+          "sigma": 38.56527526356093,
+          "censored_fraction": 0.0
+        }
+      ]
+    },
+    "frontier": {
+      "age": [
+        {
+          "param": 0.08,
+          "mean_delivery_time_s": 0.056847,
+          "werner": 0.7082004946462265,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.06,
+          "mean_delivery_time_s": 0.059108400000000005,
+          "werner": 0.7194433209485798,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.05,
+          "mean_delivery_time_s": 0.06185028750000001,
+          "werner": 0.7306493427074136,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.04,
+          "mean_delivery_time_s": 0.06715424375,
+          "werner": 0.7488048467503043,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.035,
+          "mean_delivery_time_s": 0.07169033125,
+          "werner": 0.7613247551496628,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.03,
+          "mean_delivery_time_s": 0.07734506249999999,
+          "werner": 0.775678895433131,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.025,
+          "mean_delivery_time_s": 0.08700944375000001,
+          "werner": 0.7934203518452172,
+          "secret_key_hz": 0.47493292173730806,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.02,
+          "mean_delivery_time_s": 0.10100555,
+          "werner": 0.8117941337980664,
+          "secret_key_hz": 0.9896765295542843,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.017,
+          "mean_delivery_time_s": 0.11367739999999998,
+          "werner": 0.8229927090196181,
+          "secret_key_hz": 1.2059501638225005,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.015,
+          "mean_delivery_time_s": 0.12277616250000001,
+          "werner": 0.8292893186991837,
+          "secret_key_hz": 1.290584097232289,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.013,
+          "mean_delivery_time_s": 0.13898436875,
+          "werner": 0.8363937686937012,
+          "secret_key_hz": 1.3166814335724093,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.012,
+          "mean_delivery_time_s": 0.144633225,
+          "werner": 0.8387382129957739,
+          "secret_key_hz": 1.3219882105974239,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.01,
+          "mean_delivery_time_s": 0.1728338375,
+          "werner": 0.844949603705543,
+          "secret_key_hz": 1.2335724331026763,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.008,
+          "mean_delivery_time_s": 0.20714755625000003,
+          "werner": 0.8494212397978077,
+          "secret_key_hz": 1.1068483945413392,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.006,
+          "mean_delivery_time_s": 0.2590183875,
+          "werner": 0.8527793433977214,
+          "secret_key_hz": 0.9323315194884688,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.004,
+          "mean_delivery_time_s": 0.38600548125,
+          "werner": 0.8559125529047144,
+          "secret_key_hz": 0.6554075048572355,
+          "censored_fraction": 0.0
+        }
+      ],
+      "fidelity": [
+        {
+          "param": 0.75,
+          "mean_delivery_time_s": 0.06424405492816639,
+          "werner": 0.7332774449069877,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.8,
+          "mean_delivery_time_s": 0.07610537308722173,
+          "werner": 0.7650071201515584,
+          "secret_key_hz": 0.0,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.83,
+          "mean_delivery_time_s": 0.08644691207726092,
+          "werner": 0.7873329350901372,
+          "secret_key_hz": 0.2601190982709885,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.86,
+          "mean_delivery_time_s": 0.10022710641496343,
+          "werner": 0.8086465822710551,
+          "secret_key_hz": 0.8951806643355928,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.88,
+          "mean_delivery_time_s": 0.11467937504758516,
+          "werner": 0.8210602260182077,
+          "secret_key_hz": 1.1388640816454159,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.89,
+          "mean_delivery_time_s": 0.1256505901695915,
+          "werner": 0.8264503375851067,
+          "secret_key_hz": 1.1840452953512415,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.895,
+          "mean_delivery_time_s": 0.13260068460538602,
+          "werner": 0.8288745794741026,
+          "secret_key_hz": 1.1842673481334836,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.9,
+          "mean_delivery_time_s": 0.14027483860849346,
+          "werner": 0.8315003272991452,
+          "secret_key_hz": 1.1836830710954327,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.905,
+          "mean_delivery_time_s": 0.14937784988588945,
+          "werner": 0.8341386380094946,
+          "secret_key_hz": 1.1725651592752364,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.91,
+          "mean_delivery_time_s": 0.162552201973331,
+          "werner": 0.836886123644904,
+          "secret_key_hz": 1.13635446541706,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.92,
+          "mean_delivery_time_s": 0.20204099867205277,
+          "werner": 0.842146981950726,
+          "secret_key_hz": 1.005881610921594,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.93,
+          "mean_delivery_time_s": 0.42244987423016317,
+          "werner": 0.8481033477569552,
+          "secret_key_hz": 0.531474043884968,
+          "censored_fraction": 0.0
+        },
+        {
+          "param": 0.94,
+          "mean_delivery_time_s": 4.865211811320888,
+          "werner": 0.8659467874554925,
+          "secret_key_hz": 0.059718570224682764,
+          "censored_fraction": 0.1836
+        },
+        {
+          "param": 0.95,
+          "mean_delivery_time_s": 6.838156687346418,
+          "werner": 0.8720053311635202,
+          "secret_key_hz": 0.04588587740829425,
+          "censored_fraction": 0.2017
+        },
+        {
+          "param": 0.96,
+          "mean_delivery_time_s": 14.312967243100127,
+          "werner": 0.8995455691487386,
+          "secret_key_hz": 0.029712725182814488,
+          "censored_fraction": 0.5715
+        }
+      ],
+      "matched": {
+        "age": {
+          "param": 0.013,
+          "mean_delivery_time_s": 0.13898436875,
+          "werner": 0.8363937686937012,
+          "secret_key_hz": 1.3166814335724093,
+          "censored_fraction": 0.0
+        },
+        "fidelity": {
+          "param": 0.895,
+          "mean_delivery_time_s": 0.13260068460538602,
+          "werner": 0.8288745794741026,
+          "secret_key_hz": 1.1842673481334836,
+          "censored_fraction": 0.0
+        },
+        "age_dominates": true
+      }
+    }
+  }
+}
